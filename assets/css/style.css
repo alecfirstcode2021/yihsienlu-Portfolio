@@ -46,16 +46,13 @@ h2 {
 
 }
 
-a[href*='.css']::after {
-  content: '📝';
-  display: inline-block;
-  margin-left: 3px;
-}
-
 nav ul {
   display: flex;
   justify-content: space-between;
-  min-width: 300px;
+  min-width: 400px;
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin-top: 8%;
 }
 
 nav a {
@@ -202,15 +199,6 @@ main {
   padding: 2rem;
   margin: 1rem 3rem;
 
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  /* min-width: 1000px; */
-  list-style-type: none;
-  font-size: 1.5rem;
-  margin-top: 8%;
 }
 
 
